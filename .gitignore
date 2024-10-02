@@ -19,3 +19,6 @@ crash.log
 *.zip
 *.tar.gz
 *.exe
+
+.terraform/
+.terraform.lock.hcl
