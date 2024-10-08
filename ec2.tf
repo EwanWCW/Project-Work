@@ -13,5 +13,5 @@ resource "aws_instance" "Natwest-Vm-Ewan" {
 }
 
 output "PublicIpAddress" {
-   value = aws_instance.Natwest-Vm-Ewan[0].public_ip
+   value = aws_instance.Natwest-Vm-Ewan1.*.public_ip
 }
