@@ -1,5 +1,5 @@
 
-resource "aws_instance" "Natwest-Vm-Ewan" {
+resource "aws_instance" "Natwest-Vm-Ewan1" {
   count                  = 3
   ami                    = "ami-08978028fd061067a"
   instance_type          = "t3.micro"

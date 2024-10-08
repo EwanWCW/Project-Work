@@ -16,9 +16,9 @@ provider "aws" {
 terraform {
   cloud {
     organization = "NW-Ewan"
-    hostname     = "app.terraform.io"
+
     workspaces {
-      tags = ["ewan-tag"]
+      name = "NW-Ewan-Prod"
     }
   }
 }
