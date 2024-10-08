@@ -1,25 +1,13 @@
-# Ignore Terraform state files
 *.tfstate
 *.tfstate.*
-
-# Ignore crash logs
 crash.log
-
-# Ignore any .terraform directories
 .terraform/
-
-# Ignore provider binaries
 .terraform/providers/
-
-# Ignore any sensitive or configuration files
 .terraform.lock.hcl
 *.backup
-
-# Ignore other common large files
 *.zip
 *.tar.gz
 *.exe
-
 .terraform/
 .terraform.lock.hcl
 .terraform/providers/registry.terraform.io/hashicorp/aws/5.69.0/windows_386/terraform-provider-aws_v5.69.0_x5.exe
